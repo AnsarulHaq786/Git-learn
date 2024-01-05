@@ -50,21 +50,49 @@
             <br>
             <b>Remote</b>: The projects or repositories which are on github account are called remote repo.<br>
             <b>Local</b>: The projects which are on your computer system yet to be commited and pushed are known as
-            Local
-            projects.<br>
-            <h4>To check status about</h4><br>
-                -which files are untracted<br>
-                -which files are to be commited<br>
-                -which files are modified<br>
-                We use this command:<br>
-                <i>git status</i>
-           
+            local projects.<br>
         </div>
         <div class="clone">
             Clone: When we want to fetch the repository files we use clone command to clone remote repo into local
             space.<br>
             Clone command:<br>
             <i>git clone &lt--url--&gt</i>
+        </div>
+        <div class="status">
+            <h4>To check status about</h4>
+            <p>
+                -which files are untracted<br>
+                -which files are to be commited<br>
+                -which files are modified<br>
+                We use this command:<br>
+                <i>git status</i>
+            </p>
+        </div>
+        <div class="change_directory">
+            <p>
+            <h3>To change directory</h3><br>
+            Directory are all the files inside your folder which are forming the tree. Say path where you are writing
+            your code is <b>mypc.codes.html.learn-git</b>then these all .extended folder are known as directory. So,
+            when you are writing another code in different file you can use this command to get access to those
+            codes.<br>
+            For now say path of that code is<b>mypc.codes.html.learn-other</b>then First we return to parent file only
+            after that we enter into the expected code file.<br>
+            <h4>To go back to parent file we use:</h4>
+            <i>cd ..</i>
+            <h4>To go into the children file we use:</h4>
+            <i>cd &lt;-file_name-&gt;</i>
+            </p>
+        </div>
+        <div class="listing">
+            <p>
+                <h3>To list visible files we use:</h3>
+                <i>ls</i>
+                <h3>To list hidden files we use:</h3>
+                <i>ls -a</i>
+                But sometimes <i>ls -a</i>may not work because <i>-a</i>is a ambigiuous command which means it hold more than one executive results.<br>
+                <h4>In that case we use:</h4>
+                <i>ls -force</i>
+            </p>
         </div>
     </div>
 
