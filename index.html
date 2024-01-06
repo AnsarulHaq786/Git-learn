@@ -68,6 +68,14 @@
                 <i>git status</i>
             </p>
         </div>
+        <div class="create_new_file_and_folder">
+            <p>
+                <h4>To create new folder we use</h4>
+            <i>mkdir &lt;-name of directory-&gt;</i><br>
+                <h4>To create new file we use</h4>
+                <i>touch &lt;-name of folder-&gt;</i><br>
+            </p>
+        </div>
         <div class="change_directory">
             <p>
             <h3>To change directory</h3><br>
@@ -88,14 +96,40 @@
                 <h3>To list visible files we use:</h3>
                 <i>ls</i>
                 <h3>To list hidden files we use:</h3>
-                <i>ls -a</i>
-                But sometimes <i>ls -a</i>may not work because <i>-a</i>is a ambigiuous command which means it hold more than one executive results.<br>
+                <i>ls -a</i>&nbsp;
+                But sometimes <i>ls -a</i>&nbsp;may not work because <i>-a</i>&nbsp;is a ambigiuous command which means it hold more than one executive results.<br>
                 <h4>In that case we use:</h4>
                 <i>ls -force</i>
             </p>
         </div>
+        <div class="add_and_commit">
+            <p>
+                <h5>when you are done with the coding you can use these commands and steps to upload your work in github.</h5>
+                <b>Step 1: Stage your file</b><br>
+                Staging is nothing but to save your file in local device as a file ready to commit. Think of it like dragging your few out of many projects in code editor to the stage so that you can publish those chosen one in open source.
+                <h4>Use this command to stage your file</h4>
+                <i>git add &lt;-file_name-&gt;</i><br><br>
+                <b>Step 2: Commit your file</b><br>
+                When you commit your file it is almost into your remote repository. When we commit any file it means we are done with modifying content in our project.
+                We take the real advantages of commit when we create different branches in repositories to use unique hash of commited file. Each commited file has a unique hash with it.
+                <h4>Use this command to commit your files</h4>
+                <i>git commit -m &lt;-message for what changes you made this time in this project-&gt;</i><br><br>
+                <b>Step 3:Push committed file</b><br>
+                This is final step when you are working in any project. After you push your file it gets uploaded in your github account with amazing looking green box in your github profile.<br>
+                <h4>Use this command to push your commited file</h4>
+                <i>git push origin main</i>
+            </p>
+        </div>
+        <div class="useful_commands">
+            <p>
+                <h4>To unstage the staged files we use</h4>
+                <i>git restore --stage &lt;-file_name-&gt;</i>
+                <h4>To stage all files we use</h4>
+                <i>git add .</i>
+                <h4></h4>
+            </p>
+        </div>
     </div>
-
 </body>
 
 </html>
