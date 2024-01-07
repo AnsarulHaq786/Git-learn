@@ -11,7 +11,59 @@
 <body>
     <div class="container">
         <div class="other_info">
+            <h2>Git and Github</h2>
+            <h3>Git</h3>
+            <p>Git is a version control system that keeps track of changes in your code overtime.</p>
+            <h3>Github</h3>
+            <p>Github is the implementation of git version control. Github is a open source code contributing software
+                where you can publish projects code to be corrected by other users. Or simply it is the place where you
+                can keep track of your coding journey in a sequential manner.
+            </p>
+        </div>
+        <div class="git_and_github_setup">
+            <h3>Setup git and github</h3>
             <p>
+            <h4>Download git bash</h4>
+            <a href="https://www.git-scm.com/downloads">download</a>
+            <h4>Download github</h4>
+            <a href="https://desktop.github.com/">download</a>
+            <h4>Or use github on your browser</h4>
+            <a href="https://github.com/">Github-web</a>
+            <h5>Note: you must at least download gitbash</h5>
+            Sign up into github.
+            <a href="https://youtu.be/Gn3w1UvTx0A?si=ShBT20Y5qkSbx4h6">Watch how to sign up</a>
+            </p>
+        </div>
+        <div class="git_setup_command">
+            <h3>Go to git bash and execute these commands</h3>
+            <h3>Git setup commands</h3>
+            <i>git config --global user.name "&lt;-Your name-&gt;"<br>
+                git config --global user.email "&lt;-Your email-&gt;"<br></i>
+            <i>
+                <h4>To check user name and email</h4>
+                git config --global user.name<br>
+                git config --global user.email<br>
+            </i>
+        </div>
+        <div class="repo_find">
+            <h3>Create and/or find your repositories?</h3>
+            <p>
+                Follow these steps:<br>
+                step 1: Goto your github account,<br>
+                step 2: Select profile in right topmost of the screen,<br>
+                step 3: Choose your profile<br>
+                step 4: Choose repository in 2nd column.<br>
+                step 5: Select new option.<br>
+                step 6: Name repository leave everything default and create.<br>
+            </p>
+            <b>Congratulations! You have made your first commit on github account.</b>
+        </div>
+        <div class="additional_info">
+            <p>
+                <br>
+                <b>Remote</b>: The projects or repositories which are on github account are called remote repo.<br>
+                <b>Local</b>: The projects which are on your computer system yet to be commited and pushed are known as
+                local projects.<br>
             <h3>What is README.md?</h3>
             README is nothing but the description about the project or anything as comparable as that.<br>
             For example: We create Readme file in any repository branch to write what the project is about.<br>
@@ -26,39 +78,35 @@
             </i>
             </p>
         </div>
-        <div class="repo_find">
-            <h3>Want to find your repositories?</h3>
+        <div class="code_editor">
+            <h3>Code editor</h3>
             <p>
-                <b>!check you repositories</b><br>
-                Follow these steps:<br>
-                step 1: Goto your github account,<br>
-                step 2: Select your profile in right topmost of the screen,<br>
-                step 3: Choose repository in 2nd column.<br>
+                It is place where we write our code. These days a<b>VS Code</b> editor is one of the most popular code
+                editor application. The key advantages of using visual studio code is<br>
+                -Variablility: We can code almost all programming as well as non programming languages in vs code
+                editor.<br>
+                -Speed: It do not lag much as compared to other code editor.<br>
+                -User interface: User feel comfortable while writing code in vs code.<br>
+                -Extensions: Vs code offers all essential extensions which programmer usually needs.<br>
+            <h5>Download vs code</h5>
+            <a href="https://code.visualstudio.com/">download</a>
+            </p>
+            <p>
+                After we download vs code editor and set it up.<br>
+                We create folder and files in it.<br>
             </p>
         </div>
-        <div class="git_setup_command">
-            <h3>Git setup commands</h3>
-            <i>git config --global user.name "Your name"<br>
-                git config --global user.email "Your name"<br></i>
-            <i>
-                <h4>To check user name and email</h4>
-                git config --global user.name<br>
-                git config --global user.email<br>
-            </i>
-        </div>
-        <div class="additional_info">
-            <br>
-            <b>Remote</b>: The projects or repositories which are on github account are called remote repo.<br>
-            <b>Local</b>: The projects which are on your computer system yet to be commited and pushed are known as
-            local projects.<br>
-        </div>
         <div class="clone">
-            Clone: When we want to fetch the repository files we use clone command to clone remote repo into local
-            space.<br>
-            Clone command:<br>
-            <i>git clone &lt--url--&gt</i>
+            <h3>Clone</h3>
+            <p>
+                Clone: When we want to fetch the repository files we use clone command to clone remote repo into local
+                space.<br>
+                Clone command:<br>
+                <i>git clone &lt-https url of code section on your repository-&gt</i>
+            </p>
         </div>
         <div class="status">
+            <h3>Status</h3>
             <h4>To check status about</h4>
             <p>
                 -which files are untracted<br>
@@ -69,22 +117,24 @@
             </p>
         </div>
         <div class="create_new_file_and_folder">
+            <h3>Create</h3>
             <p>
-                <h4>To create new folder we use</h4>
+            <h4>To create new folder we use</h4>
             <i>mkdir &lt;-name of directory-&gt;</i><br>
-                <h4>To create new file we use</h4>
-                <i>touch &lt;-name of folder-&gt;</i><br>
+            <h4>To create new file we use</h4>
+            <i>touch &lt;-name of file-&gt;</i><br>
             </p>
         </div>
         <div class="change_directory">
+            <h3>Directory</h3>
             <p>
-            <h3>To change directory</h3><br>
-            Directory are all the files inside your folder which are forming the tree. Say path where you are writing
-            your code is <b>mypc.codes.html.learn-git</b>then these all .extended folder are known as directory. So,
-            when you are writing another code in different file you can use this command to get access to those
-            codes.<br>
-            For now say path of that code is<b>mypc.codes.html.learn-other</b>then First we return to parent file only
-            after that we enter into the expected code file.<br>
+                Directory are all the files inside your folder which are forming the tree. Say path where you are
+                writing
+                your code is <b>mypc.codes.html.learn-git</b> then these all extended folder are known as directory.
+                So, when you are writing another code in different file you can use this command to get access to those
+                codes.<br>
+                For now say path of that code is <b>mypc.codes.html.learn-other</b> then First we return to parent file
+                only after that we enter into the expected code file.<br>
             <h4>To go back to parent file we use:</h4>
             <i>cd ..</i>
             <h4>To go into the children file we use:</h4>
@@ -92,44 +142,108 @@
             </p>
         </div>
         <div class="listing">
+            <h3>Listing</h3>
             <p>
-                <h3>To list visible files we use:</h3>
-                <i>ls</i>
-                <h3>To list hidden files we use:</h3>
-                <i>ls -a</i>&nbsp;
-                But sometimes <i>ls -a</i>&nbsp;may not work because <i>-a</i>&nbsp;is a ambigiuous command which means it hold more than one executive results.<br>
-                <h4>In that case we use:</h4>
-                <i>ls -force</i>
+            <h3>To list visible files we use:</h3>
+            <i>ls</i>
+            <h3>To list hidden files we use:</h3>
+            <i>ls -a</i>&nbsp;
+            But sometimes <i>ls -a</i>&nbsp;may not work because <i>-a</i>&nbsp;is a ambigiuous command which means it
+            hold more than one executive results.<br>
+            <h4>In that case we use:</h4>
+            <i>ls -force</i>
             </p>
         </div>
         <div class="add_and_commit">
+            <h3>Stage and Commit</h3>
             <p>
-                <h5>when you are done with the coding you can use these commands and steps to upload your work in github.</h5>
-                <b>Step 1: Stage your file</b><br>
-                Staging is nothing but to save your file in local device as a file ready to commit. Think of it like dragging your few out of many projects in code editor to the stage so that you can publish those chosen one in open source.
-                <h4>Use this command to stage your file</h4>
-                <i>git add &lt;-file_name-&gt;</i><br><br>
-                <b>Step 2: Commit your file</b><br>
-                When you commit your file it is almost into your remote repository. When we commit any file it means we are done with modifying content in our project.
-                We take the real advantages of commit when we create different branches in repositories to use unique hash of commited file. Each commited file has a unique hash with it.
-                <h4>Use this command to commit your files</h4>
-                <i>git commit -m &lt;-message for what changes you made this time in this project-&gt;</i><br><br>
-                <b>Step 3:Push committed file</b><br>
-                This is final step when you are working in any project. After you push your file it gets uploaded in your github account with amazing looking green box in your github profile.<br>
-                <h4>Use this command to push your commited file</h4>
-                <i>git push origin main</i>
+            <h5>when you are done with the coding you can use these commands and steps to upload your work in github.
+            </h5>
+            <b>Step 1: Stage your file</b><br>
+            Staging is nothing but to save your file in local device as a file ready to commit. Think of it like
+            dragging your few out of many projects in code editor to the stage so that you can publish those chosen one
+            in open source.
+            <h4>Use this command to stage your file</h4>
+            <i>git add &lt;-file_name-&gt;</i><br><br>
+            <b>Step 2: Commit your file</b><br>
+            When you commit your file it is almost into your remote repository. When we commit any file it means we are
+            done with modifying content in our project.
+            We take the real advantages of commit when we create different branches in repositories to use unique hash
+            of commited file. Each commited file has a unique hash with it.
+            <h4>Use this command to commit your files</h4>
+            <i>git commit -m &lt;-message for what changes you made this time in this project-&gt;</i><br><br>
+            <p>Before you push your file first check this out</p><br>
+            <a href="remote.html">Click Here</a><br><br>
+            <b>Step 3:Push committed file</b><br>
+            This is final step when you are working in any project. After you push your file it gets uploaded in your
+            github account with amazing looking green boxes in your github profile.<br>
+            <h4>Use this command to push your commited file</h4>
+            <i>git push origin main</i>
             </p>
+            <p>Congratulations you sucessfully published your project into github account.</p>
         </div>
         <div class="useful_commands">
+            <h4>Few useful commands</h4>
             <p>
-                <h4>To unstage the staged files we use</h4>
-                <i>git restore --stage &lt;-file_name-&gt;</i>
-                <h4>To stage all files we use</h4>
-                <i>git add .</i>
-                <h4></h4>
+            <h4>To unstage the staged files we use</h4>
+            <i>git restore --stage &lt;-file_name-&gt;</i>
+            <h4>To stage all files we use</h4>
+            <i>git add .</i>
+            <h4>To undo commits we use</h4>
+            <i>git reset &lt;-commit hash-&gt;</i>
+            </p>
+        </div>
+        <div class="branches">
+            <h3>Branch</h3>
+            <p>
+            <h4>To create new branch</h4>
+            <i>git branch -b &lt;-branch name-&gt;</i>
+            <h4>To delete any branch</h4>
+            <i>git branch -d &lt;-branch name-&gt;</i>
+            <h4>To jump over branch</h4>
+            <i>git checkout &lt;-branch name-&gt;</i>
+            <h4>To merge branches</h4>
+            <i>git merge &lt;-brach name-&gt;</i>
+            When we merge braches it gets merged remotely not locally. We use pull command to fetch data from remote
+            access to local access.<br>
+            <h4>Pull commands</h4>
+            <i>git pull origin &lt;-branch name-&gt;</i>
+            </p>
+        </div>
+        <div class="fork">
+            <h3>Fork</h3>
+            <p>
+            <h4>To make copy of others repository and work on it in your own</h4>
+            <h4>Follow these steps</h4>
+            <i>
+                -Go to github account,
+                -Search and select repository that you want to work with,
+                -create fork.
+            </i>
+            </p>
+        </div>
+        <div class="pull_request">
+            <h3>Pull request</h3>
+            <p>
+                When we make any changes to the repository of other github user. We request them to apply these changes
+                that we made. We must pull request in order to correct individual or companies code fault or non
+                satisfiable user experience.<br>
+            <h4>Follow these steps to pull request</h4>
+            <i>
+                -Go to your github account,<br>
+                -Choose the repository that you made change in,<br>
+                -Select the pull request option,<br>
+                -Write message,<br>
+                -Select create pull request.<br>
+            </i>
             </p>
         </div>
     </div>
+    <address>
+        <hr>
+        &lt;&lt;&lt;&copy;Ansarul Haq&gt;&gt;&gt;
+        <hr>
+    </address>
 </body>
 
 </html>
