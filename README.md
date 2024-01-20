@@ -1,3 +1,7 @@
+## Git
+Git is a version control system that keeps track of changes in your code overtime.
+## Github
+Github is a web-based platform that provides hosting for version control using Git.
 ## Git Commands
 |S.N |For/To |Commands|Comment|
 |--- |---|--- |---|
