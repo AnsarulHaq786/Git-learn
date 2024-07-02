@@ -31,4 +31,5 @@ Github is a web-based platform that provides hosting for version control using G
 |24|Commit |_git commit -m "<-message->"_|To commit the changes|
 |25|Undo commit |_git reset <-commit hash->_|To undo commit|
 |26|Push |_git push origin main_|To push the commited file|
-
+g
+Prabhat Mani Paudel
