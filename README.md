@@ -33,9 +33,12 @@ Github is a web-based platform that provides hosting for version control using G
 |25|Undo commit |_git reset <-commit hash->_|To undo commit|
 |26|Push |_git push origin main_|To push the commited file|
 
+
 #Contributors
+Rojina Tiwari
 Bipana
 Apekchha
 Prabhat Mani Paudel
 My name is Suchita Baral.
 My name is Anil Pariyar   
+
