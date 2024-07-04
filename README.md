@@ -1,5 +1,4 @@
-# Bipana
-# Apekchha
+
 ## Git
 Git is a version control system that keeps track of changes in your code overtime.
 ## Github
@@ -35,7 +34,11 @@ Github is a web-based platform that provides hosting for version control using G
 |26|Push |_git push origin main_|To push the commited file|
 
 
+#Contributors
 Rojina Tiwari
-My name is suchita Baral.
+Bipana
+Apekchha
+Prabhat Mani Paudel
+My name is Suchita Baral.
 My name is Anil Pariyar   
 
